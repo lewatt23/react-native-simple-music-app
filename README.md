@@ -4,8 +4,7 @@ You test  the  app  by  installing  the apk  found  in the  root  directory  bel
 
 ## cloning  repo 
 
-To  use the  repo  you  will  have to  create  a  firebase and lastfm  api  account , then   place  the  api  key  in the  both  place need the  
-
+To  use the  repo  you  will  have to  create  a  firebase and lastfm  api  account , then   place  the  api  key .
 ##  running the  app
 To  run the  app  you  can  either  you  'npm install'  or  'yarn  install'
 
