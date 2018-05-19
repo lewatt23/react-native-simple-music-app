@@ -28,7 +28,8 @@ export default class Main extends React.Component{
     componentWillMount(){
       firebase.initializeApp(
         {
-          apiKey: 'AIzaSyDQ82xbtnlD5aZPpNiFB8xoh8vgtgkft-E',
+          // add your api  key below
+          apiKey: '',
           authDomain: 'artisewidme.firebaseapp.com',
           databaseURL: 'https://artisewidme.firebaseio.com',
           projectId: 'artisewidme',
