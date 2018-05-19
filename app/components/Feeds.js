@@ -46,11 +46,12 @@ export class Feed extends React.Component {
 
 
   componentWillMount(){
-    const key = '6c7d9cc25f736cfaf7a3fc4983b89f45';
-    const Url ='http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=6c7d9cc25f736cfaf7a3fc4983b89f45&format=json&limit=12';
+    //enter  api  key  below
+    const key = '';
+    const Url ='http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key='+key +'&format=json&limit=12';
     
     //Start getting the first batch of data from reddit
-    fetch('http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=6c7d9cc25f736cfaf7a3fc4983b89f45&format=json&limit=50')
+    fetch(Url)
       .then(response => response.json())
       .then(responseJson => {
         let ds = new ListView.DataSource({
