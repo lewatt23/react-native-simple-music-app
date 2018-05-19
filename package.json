@@ -1,0 +1,36 @@
+{
+  "name": "Musicapp",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "26.0.0",
+    "react-native-scripts": "1.13.1",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "expo": "^26.0.0",
+    "firebase": "^4.13.1",
+    "native-base": "^2.4.2",
+    "react": "16.3.0-alpha.1",
+    "react-addons": "^0.9.1-deprecated",
+    "react-native": "0.54.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-router-flux": "^3.43.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-form": "^7.3.0",
+    "redux-persist": "^5.9.1"
+  }
+}

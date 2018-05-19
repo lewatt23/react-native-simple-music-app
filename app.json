@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "sdkVersion": "26.0.0",
+    "name": "ArtistWidMe",
+    "description": "simple app  to view top  songs of the moment ",
+    "android": {
+      "package": "com.lewatt.ArtistWidMe"
+    }
+  }
+
+}
