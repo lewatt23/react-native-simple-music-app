@@ -41,7 +41,8 @@ OnSignup(){
 componentWillMount(){
     let Username =this.props.name ;
     console.log(Username);
-    const Url ='http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist='+ Username.trim() +'&api_key=6c7d9cc25f736cfaf7a3fc4983b89f45&format=json&limit=25';
+  //add  api  key  below
+    const Url ='http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist='+ Username.trim() +'&api_key=&format=json&limit=25';
     
     //Start getting the first batch of data from reddit
     fetch(Url)
