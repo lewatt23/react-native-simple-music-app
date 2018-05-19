@@ -1,3 +1,16 @@
+## Using  app 
+
+You test  the  app  by  installing  the apk  found  in the  root  directory  below 
+
+## cloning  repo 
+
+To  use the  repo  you  will  have to  create  a  firebase and lastfm  api  account , then   place  the  api  key  in the  both  place need the  
+
+##  running the  app
+To  run the  app  you  can  either  you  'npm install'  or  'yarn  install'
+
+
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
